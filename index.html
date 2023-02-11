@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="additempopup">
+      <form id="myform">
+        <label for="Title">Title:</label>
+        <input type="text" id="Title" maxlength="20" required></input>
+        <label for="Date">Date:</label>
+        <input type="datetime-local" id="Date" maxlength="20" required></input>
+        <label for="Project">Project Name:</label>
+        <input type="text" id="Project" maxlength="20"></input>
+        <input class="button" name="submit" type="submit" value="submit">
+      </form>
+    </div>
+    <div class="maincontent">
+      <div class="sidecontent">
+        <div class="topleftside">
+          
+        </div>
+        <div class="bottomleftside">
+          <div class="New item" id="leftitems">New item</div>
+        </div>
+        <div class="content"></div>
+      </div>
+      <div class="maincontent-todo" id="maincontentdisplay">
+
+      </div>
+      <div class="projects" id="maincontentdisplay">
+      </div>
+    </div>
+  </body>
+</html>
+
+
